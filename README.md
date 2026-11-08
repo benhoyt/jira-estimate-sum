@@ -7,6 +7,8 @@ This was vibe-coded, using Pi and GLM 5.3 (if I remember correctly), and then li
 
 It uses the Jira REST API with the current credentials to fetch the "originalestimate" field values using the currently-shown filters.
 
+To try it out, open `about:debugging#/runtime/this-firefox` in your browser's address bar, click "Load temporary add-on", and select the `manifest.json` file.
+
 Screenshot:
 
 <img width="499" alt="Screenshot From 2026-11-09 11-52-31" src="https://github.com/user-attachments/assets/c9fe5693-2f4b-434c-b334-41b729e3ad9d" />
