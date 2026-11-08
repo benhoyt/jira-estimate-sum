@@ -1,0 +1,45 @@
+.jira-sum-badge {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 99999;
+  background-color: #091e42;
+  color: #ffffff;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, 'Fira Sans', 'Droid Sans', sans-serif;
+  box-shadow: 0 4px 12px rgba(9, 30, 66, 0.25);
+  cursor: default;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.jira-sum-badge:hover {
+  opacity: 0.95;
+}
+
+.jira-sum-title {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #8590a2;
+  margin-bottom: 2px;
+}
+
+.jira-sum-total {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.jira-sum-human {
+  font-size: 13px;
+  font-weight: 400;
+  color: #b3b9c4;
+}
+
+.jira-sum-subtext {
+  font-size: 11px;
+  color: #97a0af;
+  margin-top: 2px;
+}

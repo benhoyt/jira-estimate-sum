@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Jira Original Estimate Summer",
+  "version": "1.0.0",
+  "description": "Calculates and displays the sum of Original Estimate values on Jira list views.",
+  "permissions": [
+    "activeTab"
+  ],
+  "host_permissions": [
+    "*://*.atlassian.net/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.atlassian.net/*"
+      ],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
